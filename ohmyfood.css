@@ -157,9 +157,52 @@ h3
   font-size: 1.5rem;
   margin: 2.5 0 1.5 0;
 } 
+h4 
+{
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.price
+{
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: .5rem;
+  
+}
+.txt
+{
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 320px)
+{
+  .text
+  {white-space: initial;}
+  
+}
+.reservation_search--desc
+{
+  font-size: 1.2rem;
+}
+.headerlogo
+{
+  text-align: center;
+  padding: 1rem 0 0;
+}
+.headerlogo_img
+{
+  width: 12rem;
+  height: 3rem;
+}
+
+
 
 
 
 
   
-}
+
