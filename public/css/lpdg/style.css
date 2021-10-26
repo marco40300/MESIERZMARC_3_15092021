@@ -132,6 +132,7 @@ footer ul
 footer ul li
 {
     padding: 5px 0 5px 0;
+    padding-left: 0;
 }
 footer ul .fa-utensils
 {

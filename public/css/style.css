@@ -133,6 +133,7 @@ footer a
 footer ul
 {
     list-style-type: none;
+    padding-left: 0;
 }
 footer ul li
 {
@@ -256,6 +257,12 @@ footer ul .fa-hands-helping
     {
         padding: 0 20px;
     }
+}
+.fill_heart span
+
+{
+    margin-bottom: -20px;
+    display: block
 }
 .heart
 {
@@ -464,7 +471,7 @@ footer ul .fa-hands-helping
     background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     border: 1px solid transparent;
     border-radius: 30px;
-    padding: 10px 5px;
+    padding: 20px 30px;
     color: #fff;
     font-weight: bold;
     box-shadow: 4px 4px 6px #aaa;
@@ -483,7 +490,7 @@ footer ul .fa-hands-helping
     border: 5px solid #99e2d0;
     border-radius: 5px;
     position: absolute;
-    right: 1%;
+    right: 4%;
     top: 5%;
 }
 .fill
@@ -610,9 +617,9 @@ footer ul .fa-hands-helping
 }
 @media screen and (min-width: 1280px)
  {
-     .btn_order button:hover
+     .btn_order button
      {
-         width: 25px;
+         width: 25%;
      }
 }
 .btn_order button:hover
@@ -643,6 +650,7 @@ footer ul .fa-hands-helping
 .operation_steps
 {
     list-style-type: none;
+    padding-left: 0;
 }
 @media screen and (min-width: 768px)
  {
@@ -653,6 +661,7 @@ footer ul .fa-hands-helping
          flex-direction: row;
          justify-content: center;
          align-items: center;
+         
      }
 }
 .operation_steps li
@@ -662,7 +671,7 @@ footer ul .fa-hands-helping
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 25px;
+    padding: 15px;
     margin: 15px 20px 15px 30px;
     border-radius: 20px;
     box-shadow: 1px 2px 8px 2px #c4c4c4;
@@ -687,7 +696,7 @@ footer ul .fa-hands-helping
     color: white;
     border-radius: 50%;
     padding: 5px 9px;
-    margin-left: -40px;
+    margin-left: -30px;
 }
 .operation_steps--icon
 {
