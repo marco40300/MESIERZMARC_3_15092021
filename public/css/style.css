@@ -30,6 +30,50 @@ h1, h6
 {
     font-family: "shrikhand", "roboto", sans-serif;
 }
+.fa-2x
+{
+    font-size: 1.3em !important;
+   
+}
+.restaurants__element-footer-icon
+{
+    position: relative;
+}
+.unliked-icon 
+{
+    position: absolute;
+    transition: opacity 300ms ease-in-out;
+    font-size: 20px;
+}
+.liked-icon 
+{
+    opacity: 0;
+    background: linear-gradient(#9356dc, #ff79da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: opacity 300ms ease-in-out;
+    font-size: 20px;
+}
+.restaurants__element-footer-icon:hover .liked-icon 
+
+{
+    opacity: 1;
+    
+}
+.restaurants__element-footer-icon:hover .unliked-icon 
+{
+    opacity: 0;
+    
+}
+
+.unliked-icon {
+    position: absolute;
+    transition: opacity 300ms ease-in-out;
+    
+  }
+  
+   
+
 body, html
 {
     font-family: "roboto", sans-serif;
@@ -235,6 +279,7 @@ footer ul .fa-hands-helping
     height: 100%;
     max-height: 220px;
 }
+
 .main_restaurant
 {
     background: #f2f2f2;
@@ -445,8 +490,10 @@ footer ul .fa-hands-helping
 .line
 {
     width: 40px;
-    border: 2px solid #99e2d0;
     margin-left: 10px;
+    height: 2px;
+    background-color: #99e2d0;
+}
 }
 .maps
 {
