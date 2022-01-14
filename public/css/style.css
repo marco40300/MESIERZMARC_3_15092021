@@ -37,7 +37,10 @@ h1, h6
 }
 .restaurants__element-footer-icon
 {
-    position: relative;
+    position: absolute;
+    right: 10px;
+    z-index: 999;
+    top: 75%;
 }
 .unliked-icon 
 {
@@ -642,6 +645,8 @@ footer ul .fa-hands-helping
 .meals h4
 {
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .starter h3, .dish h3, .dessert h3{
     padding-left: 10px;
